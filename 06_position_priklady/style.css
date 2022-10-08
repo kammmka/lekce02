@@ -10,6 +10,108 @@ body {
 	margin: 0;
 }
 
-
 /* tady bude tvůj kód */
 
+main {
+	padding: 30px 15%;
+
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+.Tabulka {
+	border-style: dashed; 
+	border-width: 1px;
+	border-color: grey;
+	background-color: rgb(224, 213, 213);
+	padding: 70px 
+}
+
+.Tabulka {
+	height: 300px;
+	position: relative;
+}
+.dolni {
+	background-color: rgb(227, 74, 74);
+	position: absolute; bottom: 0px;
+						left: 30%; 
+	padding: 20px 50px; 
+	width: 30%;
+	text-align: center;
+	
+}
+
+.levy_horni {
+	background-color: rgb(31, 149, 31);
+	position: absolute; top: 0;
+						left: 0; 
+	padding: 20px 50px;
+	width: 30%;
+	text-align: center;
+	
+}
+
+.pravy_dolni {
+	background-color: rgb(37, 127, 180);
+	position: absolute; bottom: 0;
+						right: 0; 
+	padding: 20px 50px;
+	width: 30%;
+	text-align: center;
+}
+
+.pravy_uprostred {
+	background-color: rgb(245, 239, 69);
+	position: absolute; bottom: 50%;
+						right: 0; 
+	padding: 20px 50px;
+	width: 30%;
+	text-align: center;
+}
+
+header {
+	background-color: rgb(202, 69, 20);
+	padding: 20px;
+}
+
+nav a {
+	color: white;
+	display: inline-block;
+	padding: 0px 20px;
+	text-decoration: none;
+	
+
+}
+
+.Neprectene_e-maily {
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	margin-left: 300px;
+	padding-left: 7px;
+	padding-right: 150px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	display: inline-block;
+	text-align: left;
+	
+
+}
+
+span {
+	background-color: orangered;
+	border-radius: 50%;
+	color: white;
+	position: absolute; 
+		bottom: 30px;
+		right: -10px; 
+	padding: 5px 8px;
+	font-size: small;
+
+}
